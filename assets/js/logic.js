@@ -31,6 +31,7 @@ $(document).ready(function() {
 	
 	function displayGIFs() {
 		$(".btn-info").on("click", function() {
+			$("#resultsContainer").empty();
 			var subject = $(this).attr("id");
 			var giphyURL = "http://api.giphy.com/v1/gifs/search?q=" + subject + "&api_key=dc6zaTOxFJmzC";
 
