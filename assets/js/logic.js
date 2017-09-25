@@ -33,7 +33,7 @@ $(document).ready(function() {
 		$(".btn-info").on("click", function() {
 			$("#resultsContainer").empty();
 			var subject = $(this).attr("id");
-			var giphyURL = "http://api.giphy.com/v1/gifs/search?q=" + subject + "&api_key=dc6zaTOxFJmzC";
+			var giphyURL = "https://api.giphy.com/v1/gifs/search?q=" + subject + "&api_key=dc6zaTOxFJmzC";
 
 			$.ajax({ url: giphyURL, method: "GET"}).done(function(res) {
 				for (t=0; t<25; t++) {
