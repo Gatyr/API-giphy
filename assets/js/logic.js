@@ -3,10 +3,10 @@
 
 $(document).ready(function() {
 
+
 	var buttonArray = ["Futurama", "Breaking Bad", "Game of Thrones", 
 	"Westworld", "The Simpsons", "Pixar", "Disney", "Coffee", 
-	"Jurassic Park", "James Bond", "Watchmen", "Donald Trump", 
-	"The Endocrine System", "No Results", 
+	"Jurassic Park", "James Bond", "Watchmen", "The Endocrine System", "No Results", 
 	"Topic for which no GIFs exist", "Tumblr Gifs"];
 
 	//create a button for every string in the buttonArray
